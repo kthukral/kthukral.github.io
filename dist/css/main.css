@@ -168,11 +168,20 @@ Projects
 	text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+	.remembr img {
+	padding-top: 3%;
+	max-height: 35%;
+	margin: 0 auto;
+	vertical-align: middle;
+	display: block;
+	padding: 5%;
+	padding-bottom:0%;
+}
+}	
 .remembr img {
 	padding-top: 3%;
-	max-height: 65%;
-	min-height: 30%;
-	max-width: 30%;
+	max-height: 70%;
 	margin: 0 auto;
 	vertical-align: middle;
 	display: block;
