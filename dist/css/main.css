@@ -169,12 +169,14 @@ Projects
 }
 
 .remembr img {
-	max-height: 70%;
+	padding-top: 3%;
+	max-height: 65%;
+	min-height: 30%;
+	max-width: 30%;
 	margin: 0 auto;
 	vertical-align: middle;
 	display: block;
 	padding: 5%;
-	padding-top: 3%;
 	padding-bottom:0%;
 }
 
@@ -195,7 +197,8 @@ Projects
 }
 
 .kikTechNews img {
-	max-height: 70%;
+	max-height: 65%;
+	min-height: 30%;
 	margin: 0 auto;
 	vertical-align: middle;
 	display: block;
