@@ -168,7 +168,7 @@ Projects
 	text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
 	.remembr img {
 	padding-top: 3%;
 	max-height: 35%;
@@ -177,7 +177,7 @@ Projects
 	display: block;
 	padding: 5%;
 	padding-bottom:0%;
-}
+	}
 }	
 .remembr img {
 	padding-top: 3%;
