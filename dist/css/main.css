@@ -1,0 +1,231 @@
+
+/* 
+Banner
+
+
+.banner h1 {
+	font-size: 4em;
+	padding-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 0px;
+}
+
+.banner h3 {
+	font-size: 2em;
+	text-align: center;
+}
+
+.banner {
+	background-image: url(../../assets/images/banner-big.jpg);
+	background-position: center;
+	color: #272822;
+	font-weight: bold;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+
+.picture {
+	background-position: center;
+	padding-top: 0.25em;
+	text-align: center;
+	display: inline;
+	width: 15em;
+	height: 15em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0em;
+	border-radius: 12em;
+	-webkit-border-radius: 12em;
+	-moz-border-radius: 12em;
+}
+
+/*
+About Me
+
+
+.aboutme {
+	font-weight: bolder;
+	background-color: #ECF0F1;
+	font-size: 1.5em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.aboutme h2 {
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.aboutme p {
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/*
+Footer
+
+
+.footer {
+	font-size: 1.3em;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+*/
+
+.container
+{
+	min-width: 100%;
+	padding: 0;
+}
+
+.row {
+	max-width: 2000px;
+	margin: 0;
+}
+
+/* 
+Banner
+*/
+
+.banner {
+	text-align: center;
+	background-color: #8D44AD;
+	font-weight: bolder;
+}
+
+.nameTitle h1{
+	padding-top:0%;
+	font-size: 2em;
+	text-align: center;
+}
+
+.nameTitle h3{
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 2.5%;
+}
+
+/* 
+About Me
+*/
+
+.aboutMe {
+	background-color: #BEC3C7;
+}
+
+.picture img{
+	vertical-align: middle;
+	max-height: 20em;
+	max-width: 20em;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 3%;
+}
+
+.aboutMe h2{
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.aboutDescription {
+	padding: 5%;
+	padding-top: 3%;
+	font-size: 1.3em;
+	text-align: justify;
+	vertical-align: middle;
+	display: block;
+}
+
+/*
+Projects
+*/
+
+.projects {
+	background-color: #E84C3D;
+}
+
+.projects h2 {
+	padding: 2%;
+	padding-top: 1%;
+}
+
+.remembr {
+	background-color: #61CD70;
+}
+
+.remembr h2{
+	text-align: center;
+}
+
+.projectsTitle {
+	text-align: center;
+}
+
+.remembr img {
+	max-height: 70%;
+	margin: 0 auto;
+	vertical-align: middle;
+	display: block;
+	padding: 5%;
+	padding-top: 3%;
+	padding-bottom:0%;
+}
+
+.remembr p {
+	padding: 5%;
+	display: block;
+	font-size: 1.5em;
+	vertical-align: middle;
+	text-align: justify;
+}
+
+.kikTechNews {
+	background-color: #3598DB;
+}
+
+.kikTechNews h2{
+	text-align: center;
+}
+
+.kikTechNews img {
+	max-height: 70%;
+	margin: 0 auto;
+	vertical-align: middle;
+	display: block;
+	padding: 5%;
+}
+
+.kikTechNews p {
+	padding: 5%;
+	display: block;
+	font-size: 1.5em;
+	vertical-align: middle;
+	text-align: justify;
+}
+
+.carousel-control {
+	visibility: hidden;
+}
+
+.carousel-caption {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	margin-bottom: 50px;
+	position: static;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 0%;
+}
+
+.padding {
+	height: 0em;
+	width: 0em;
+}

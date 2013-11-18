@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+
+		<title>Karan Thukral</title>
+
+		<!-- Bootstrap Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./dist/css/bootstrap.css">
+		<!-- Font Awesome Stylesheet -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<!-- Custom Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+
+        <!-- Javascript -->
+        <script src="./assets/js/jquery.js"></script>
+        <script src="./dist/js/bootstrap.js"></script>
+        <script src="./zerver/MYAPI.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+		<script>
+  			$(document).ready(function(){
+    			$('.carousel').carousel({
+    				interval:2000
+    			});
+
+  			});
+		</script>
+
+		<script>
+    		MyAPI.logStuff('hi from client', function (str) {
+        		console.log(str); // "hi from server"
+    		});
+		</script>
+
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div class="container">
+			<div class="banner row">
+				<div class="col-xs-12 nameTitle">
+					<h1>Karan Thukral</h1>
+					<h3>Systems Design Engineering, University of Waterloo</h3>
+				</div>
+			</div>
+		</div>
+
+		<!-- About Me -->
+		<div class="container">
+			<div class="aboutMe row">
+				<h2>About Me</h2>
+				<div class="col-lg-3 picture">
+					<img class="img-responsive" src="./assets/images/trialImage.jpg">
+				</div>
+				<div class="col-lg-9 aboutDescription">
+					<p>I am currently a Systems Design Engineering student at the <a>University of Waterloo</a>. I have worked at the <a>Canadian Broadcasting Cooperation</a> as a Mobile Application Developer and at <a>Kik Interactive</a> as a Mobile QA Specialist for my past two Coop terms. My passions lie in Mobile Development; code examples can be found on my <a>Github Page</a>. I am also very passionate about Robotics and tinkering with Hardware projects. I am currently a mentor for a <a>FIRST Robotics</a> Team at <a href="http://www.teamdave.ca">St Davids</a> in Waterloo.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Projects 
+		<div class="container">
+			<div class="projects row">
+				<h2 class="projectsTitle">Projects</h2>
+				<div class="remembr row">
+					<div class="heading col-xs-12">
+						<h3>Remembr</h3>
+					</div>
+					<div class="device col-lg-3">
+						<img class="img-responsive" src="./assets/images/remembr-screenshot.png">
+					</div>
+					<div class="about col-lg-9">
+						<p>Ever had more than a page of notes in the default notes app and cannot find the one you need? Well then this application is for you. Remembr is based around "Categories" and "Items" inside those categories.<br><br>
+
+	                    All you have to do is create a new category and start making notes. All your notes are organized as you want them. No more mixing "School" notes with your "Movies to Watch" list.<br><br>
+
+	                    The application gives you the freedom of choosing a colour for your category and an icon. For an item/note you can also use you camera or photo gallery to add an image along with the notes.</p>
+					</div>
+				</div>
+				<div class="kikTechNews row">
+					<div class="heading col-xs-12">
+						<h3>Kik Tech News</h3>
+					</div>
+					<div class="device col-lg-3">
+						<img class="img-responsive" src="./assets/images/remembr-screenshot.png">
+					</div>
+					<div class="about col-lg-9">
+						<p>Ever had more than a page of notes in the default notes app and cannot find the one you need? Well then this application is for you. Remembr is based around "Categories" and "Items" inside those categories.<br><br>
+
+	                    All you have to do is create a new category and start making notes. All your notes are organized as you want them. No more mixing "School" notes with your "Movies to Watch" list.<br><br>
+
+	                    The application gives you the freedom of choosing a colour for your category and an icon. For an item/note you can also use you camera or photo gallery to add an image along with the notes.</p>
+					</div>
+				</div>
+
+				<div class="remembr row">
+					<div class="heading col-xs-12">
+						<h3>Remembr</h3>
+					</div>
+					<div class="device col-lg-3">
+						<img src="./assets/images/remembr-screenshot.png">
+					</div>
+					<div class="about col-lg-9">
+						<p>Ever had more than a page of notes in the default notes app and cannot find the one you need? Well then this application is for you. Remembr is based around "Categories" and "Items" inside those categories.<br><br>
+
+	                    All you have to do is create a new category and start making notes. All your notes are organized as you want them. No more mixing "School" notes with your "Movies to Watch" list.<br><br>
+
+	                    The application gives you the freedom of choosing a colour for your category and an icon. For an item/note you can also use you camera or photo gallery to add an image along with the notes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		-->
+		<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active remembr row" style="width:100%;"><!-- class of active since it's the first item -->
+      <a href="http://www.remembrapp.com">
+	      <h2>Remembr!</h2>
+	      <img class="img-responsive" src="./assets/images/remembr-screenshot.png">
+	      <div class="padding">
+	      </div>
+	      <div class="carousel-caption">
+	        <p>Simple iOS 7 Application that enables the user to organize thier notes by creating categories with a user picked icon and background colour</p>
+	      </div>
+      </a>
+    </div>
+    <div class="item kikTechNews row" style="width:100%;">
+      <h2>KikTechNews</h2>
+      <img class="img-responsive" src="./assets/images/remembr-screenshot.png">
+      <div class="padding">
+      </div>
+      <div class="carousel-caption">
+        <p>Simple iOS 7 Application that enables the user to organize thier notes by creating categories with a user picked icon and background colour</p>
+      </div>
+    </div>
+    <div class="item remembr row" style="width:100%;">
+      <h2>Kik Your Memes</h2>
+      <img class="img-responsive" src="./assets/images/remembr-screenshot.png">
+      <div class="padding">
+      </div>
+      <div class="carousel-caption">
+        <p>Simple iOS 7 Application that enables the user to organize thier notes by creating categories with a user picked icon and background colour</p>
+      </div>
+    </div>
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+	</body>
+</html>
