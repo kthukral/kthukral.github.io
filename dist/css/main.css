@@ -1,82 +1,4 @@
 
-/* 
-Banner
-
-
-.banner h1 {
-	font-size: 4em;
-	padding-left: 0px;
-	text-align: center;
-	display: block;
-	padding-top: 0px;
-}
-
-.banner h3 {
-	font-size: 2em;
-	text-align: center;
-}
-
-.banner {
-	background-image: url(../../assets/images/banner-big.jpg);
-	background-position: center;
-	color: #272822;
-	font-weight: bold;
-	padding-top: 15%;
-	padding-bottom: 15%;
-	text-align: center;
-}
-
-.picture {
-	background-position: center;
-	padding-top: 0.25em;
-	text-align: center;
-	display: inline;
-	width: 15em;
-	height: 15em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 0em;
-	border-radius: 12em;
-	-webkit-border-radius: 12em;
-	-moz-border-radius: 12em;
-}
-
-/*
-About Me
-
-
-.aboutme {
-	font-weight: bolder;
-	background-color: #ECF0F1;
-	font-size: 1.5em;
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
-
-.aboutme h2 {
-	text-align: center;
-	padding-bottom: 2%;
-}
-
-.aboutme p {
-	text-align: justify;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-/*
-Footer
-
-
-.footer {
-	font-size: 1.3em;
-	text-align: center;
-	padding-top: 3%;
-	padding-bottom: 3%;
-}
-
-*/
 
 .container
 {
@@ -168,7 +90,7 @@ Projects
 	text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
 	.remembr img {
 	padding-top: 3%;
 	max-height: 35%;
@@ -178,13 +100,17 @@ Projects
 	padding: 5%;
 	padding-bottom:0%;
 	}
-}	
+}*/	
+
+.wrapper {
+	
+}
 .remembr img {
-	padding-top: 3%;
-	max-height: 70%;
+	display: block;
+	max-width: 40%;
+	height: auto;
 	margin: 0 auto;
 	vertical-align: middle;
-	display: block;
 	padding: 5%;
 	padding-bottom:0%;
 }
@@ -206,12 +132,13 @@ Projects
 }
 
 .kikTechNews img {
-	max-height: 65%;
-	min-height: 30%;
+	display: block;
+	max-width: 40%;
+	height: auto;
 	margin: 0 auto;
 	vertical-align: middle;
-	display: block;
 	padding: 5%;
+	padding-bottom:0%;
 }
 
 .kikTechNews p {
@@ -238,6 +165,5 @@ Projects
 }
 
 .padding {
-	height: 0em;
-	width: 0em;
+	padding:0%;
 }
