@@ -119,7 +119,7 @@ Projects
 }
 .remembr img {
 	display: block;
-	max-width: 40%;
+	max-width: 35%;
 	height: auto;
 	margin: 0 auto;
 	vertical-align: middle;
@@ -145,7 +145,7 @@ Projects
 
 .kikTechNews img {
 	display: block;
-	max-width: 40%;
+	max-width: 35%;
 	height: auto;
 	margin: 0 auto;
 	vertical-align: middle;
@@ -161,12 +161,13 @@ Projects
 	text-align: justify;
 }
 
-.carousel-control .controls{
-	visibility: hidden;
+.right.carousel-control, .left.carousel-control {
+    opacity: 90;
+    filter:alpha(opacity=0); /* IE support */
 }
-.carousel-control .icon-prev, 
-.carousel-control .icon-next {
-    visibility: hidden;
+
+.carousel-control{
+	font-size: 0em;
 }
 
 .carousel-caption {
