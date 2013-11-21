@@ -91,7 +91,7 @@ Projects
 }
 
 .remembr {
-	background-color: #61CD70;
+	background-color: #53B05B;
 }
 
 .remembr h2{
@@ -124,7 +124,7 @@ Projects
 }
 
 .kikTechNews {
-	background-color: #F1C430;
+	background-color: #2476B2;
 }
 
 .kikTechNews h2{
@@ -150,7 +150,7 @@ Projects
 }
 
 .kikMemes {
-	background-color: #F39D31;
+	background-color: #C53926;
 }
 
 .kikMemes h2{
@@ -254,3 +254,37 @@ i {
 	background-color: #95A5A6;
 }
 
+/*
+Footer
+*/
+
+.footer-row{
+}
+
+.footer a{
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #2476B2;
+}
+
+.footer h3{
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2%;
+	padding-bottom: 0%
+}
+
+.footer h5 {
+	text-align: right;
+	font-size: 1.2em;
+	padding-bottom: 1%;
+}
+
+.quote {
+	text-align: center;
+	font-size: 1.3em;
+	padding-bottom: 0%;
+	padding-top: 0%;
+}
