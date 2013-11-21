@@ -17,7 +17,7 @@ Banner
 
 .banner {
 	text-align: center;
-	background-color: #ECF0F1;
+	background-color: #E6E6E6;
 	font-weight: bolder;
 }
 
@@ -39,7 +39,7 @@ About Me
 */
 
 .aboutMe {
-	background-color: #E6E6E6;
+	background-color: #D2D2D2;
 }
 
 .picture img{
@@ -79,7 +79,7 @@ Projects
 	text-align: center;
 	padding: 2%;
 	padding-top: 1%;
-	background-color: #BDC3C7;
+	background-color: #E6E6E6;
 }
 .projects {
 	background-color: #E84C3D;
@@ -100,19 +100,7 @@ Projects
 
 .projectsTitle {
 	text-align: center;
-}
-
-/*@media only screen and (max-width: 480px) {
-	.remembr img {
-	padding-top: 3%;
-	max-height: 35%;
-	margin: 0 auto;
-	vertical-align: middle;
-	display: block;
-	padding: 5%;
-	padding-bottom:0%;
-	}
-}*/	
+}	
 
 .wrapper {
 	
@@ -136,7 +124,7 @@ Projects
 }
 
 .kikTechNews {
-	background-color: #3598DB;
+	background-color: #F1C430;
 }
 
 .kikTechNews h2{
@@ -161,13 +149,44 @@ Projects
 	text-align: justify;
 }
 
+.kikMemes {
+	background-color: #F39D31;
+}
+
+.kikMemes h2{
+	text-align: center;
+}
+
+.kikMemes img {
+	display: block;
+	max-width: 35%;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 5%;
+	padding-bottom:0%;
+}
+
+.kikMemes p {
+	padding: 5%;
+	display: block;
+	font-size: 1.5em;
+	vertical-align: middle;
+	text-align: justify;
+}
+
 .right.carousel-control, .left.carousel-control {
-    opacity: 90;
+    opacity: 10;
     filter:alpha(opacity=0); /* IE support */
+    max-width: 7%;
 }
 
 .carousel-control{
 	font-size: 0em;
+}
+
+.carousel-caption {
+	height: 20em;
 }
 
 .carousel-caption {
@@ -190,3 +209,48 @@ Projects
 	min-height: 10%;
 	display: block;
 }
+
+/* 
+Social
+*/
+
+.social p{
+	padding-top: 5%;
+	padding-bottom: 2.5%;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.linkedIn {
+	background-color: #D5DADA;
+	color: #39579A;
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%; 
+}
+
+i {
+	/*color: #272722;*/
+}
+
+.github {
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #95A5A6;
+}
+
+.mail {
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #D5DADA;
+}
+
+.twitter {
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #95A5A6;
+}
+
