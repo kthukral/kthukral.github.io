@@ -129,8 +129,8 @@ Projects
 .remembr img {
 	text-align: center;
 	margin: 0 auto;
-	max-width: 25%;
-	min-width: 20%;
+	max-width: 30%;
+	min-width: 25%;
 	height: auto;
 	max-height: 0 auto;
 	display: block;
@@ -140,6 +140,33 @@ Projects
 }
 
 .remembr p {
+	padding: 5%;
+	display: block;
+	font-size: 2em;
+	vertical-align: middle;
+	text-align: justify;
+}
+
+.cbcNews h2 {
+	text-align: center;
+	font-size: 2.25em;
+	color: #E6E6E6;
+}
+
+.cbcNews img {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 30%;
+	min-width: 25%;
+	height: auto;
+	max-height: 0 auto;
+	display: block;
+	padding: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.cbcNews p {
 	padding: 5%;
 	display: block;
 	font-size: 2em;
@@ -169,8 +196,8 @@ Projects
 .kikTechNews img {
 	text-align: center;
 	margin: 0 auto;
-	max-width: 25%;
-	min-width: 20%;
+	max-width: 30%;
+	min-width: 25%;
 	height: auto;
 	max-height: 0 auto;
 	display: block;
@@ -209,8 +236,8 @@ Projects
 .kikMemes img {
 	text-align: center;
 	margin: 0 auto;
-	max-width: 25%;
-	min-width: 20%;
+	max-width: 30%;
+	min-width: 25%;
 	height: auto;
 	max-height: 0 auto;
 	display: block;
