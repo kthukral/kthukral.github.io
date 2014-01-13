@@ -304,8 +304,16 @@ Social
 	text-align: center;
 }
 
-.linkedIn {
+.resume {
 	background-color: #D5DADA;
+	color: #39579A;
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%; 
+}
+
+.linkedIn {
+	background-color: #95A5A6;
 	color: #39579A;
 	z-index: 3;
 	padding-top: 1%;
@@ -320,21 +328,21 @@ i {
 	z-index: 3;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	background-color: #95A5A6;
+	background-color: #D5DADA;
 }
 
 .mail {
 	z-index: 3;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	background-color: #D5DADA;
+	background-color: #95A5A6;
 }
 
 .twitter {
 	z-index: 3;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	background-color: #95A5A6;
+	background-color: #D5DADA;
 }
 
 /*
@@ -369,6 +377,6 @@ Footer
 .quote {
 	text-align: center;
 	font-size: 1.3em;
-	padding-bottom: 0%;
+	padding-bottom: 2.5%;
 	padding-top: 0%;
 }
